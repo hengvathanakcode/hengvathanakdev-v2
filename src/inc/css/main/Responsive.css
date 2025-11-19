@@ -1,5 +1,8 @@
 /* Desktop */
 @media (min-width: 1024px) {
+    img {
+        pointer-events: none;
+    }
     .header-container {
         position: fixed;
         bottom: 16px;

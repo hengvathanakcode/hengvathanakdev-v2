@@ -3,6 +3,8 @@ import info from "../../../db/info/main.json"
 import profile from "../../../inc/img/info/profile.jpg";
 
 import Educationcard from "../assets/education/Educationcard";
+import Skillcard from "../assets/skill/Skillcard";
+import Projectcard from "../assets/project/Projectcard";
 
 function Homecard() {
     return (
@@ -32,10 +34,25 @@ function Homecard() {
                 </div>
                 <div className='mt-3 mt-lg-5 mt-md-4'>
                     <h5 className='font-w-700'>
-                        Education
+                        Educations
                     </h5>
                     <div className=''>
                         <Educationcard />
+                    </div>
+                </div>
+                <div className='mt-3 mt-lg-5 mt-md-4'>
+                    <h5 className='font-w-700'>
+                        Skills
+                    </h5>
+                    <div className=''>
+                        <Skillcard />
+                    </div>
+                </div>
+                <div className='mt-3 mt-lg-5 mt-md-4'>
+                    <h4 className='text-center font-w-700'>Check out my latest work</h4>
+                    <p className='text-center font-w-600 font-s-16 text-secondary'>The projects I created to explore Front-end project and put my skills into practice</p>
+                    <div className=''>
+                        <Projectcard />
                     </div>
                 </div>
             </div>

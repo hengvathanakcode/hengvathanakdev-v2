@@ -1,16 +1,18 @@
-import './inc/css/App.css';
-import './inc/css/main/Header.css';
-import './inc/css/Home.css';
-import './inc/css/Education.css';
-import './inc/css/Highlight.css';
-
-import './inc/css/main/Responsive.css';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+
+import './inc/css/App.css';
+import './inc/css/main/Header.css';
+import './inc/css/Home.css';
+import './inc/css/Education.css';
+import './inc/css/Highlight.css';
+import "./inc/css/Skill.css";
+import './inc/css/Project.css';
+
+import './inc/css/main/Responsive.css';
 
 import Pagetitle from './app/components/main/Pagetitle';
 import Header from './app/components/main/Header';
