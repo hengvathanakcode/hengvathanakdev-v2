@@ -54,6 +54,10 @@
         margin-top: 100px;
         padding: 0px 18px;
     }
+
+    .project-img {
+        height: 200px;
+    }
 }
 
 /* Small mobile (extra small) — optional but recommended */
@@ -66,5 +70,9 @@
     section {
         margin-top: 100px;
         padding: 0px 15px;
+    }
+
+    .project-img {
+        height: 180px;
     }
 }

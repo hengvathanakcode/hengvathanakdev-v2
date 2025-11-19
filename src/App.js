@@ -24,7 +24,6 @@ import Contact from "./app/pages/Contactpage";
 import Highlight from "./app/pages/Highlightpage";
 import Notfound from './app/pages/main/Notfound';
 
-import Highlightview from './app/pages/Viewhighlightpage';
 
 function App() {
 
@@ -59,7 +58,6 @@ function App() {
             <Route path="/about" element={<About />} />          
             <Route path="/projects" element={<Project />} />
             <Route path="/highlights" element={<Highlight />} />
-            <Route path="/volunteering/:id" element={<Highlightview />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Notfound />} />
           </Routes>

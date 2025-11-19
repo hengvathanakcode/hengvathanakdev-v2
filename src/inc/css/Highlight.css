@@ -1,23 +1,31 @@
-.volunteering-img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+@import "./data/Data.css";
+
+.card-highlight {
+    cursor: pointer;
     border: 1px solid var(--border-color);
+    border-radius: 8px;
+    height: 100%;
+    transition: all 0.1s ease-in-out;
 }
 
-.apiv-card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.highlight-title {
+    background-color: #F3F3F3;
+    padding: 4px 8px;
+    color: #000;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
 }
 
-.hover-span {
-    opacity: 0;
-    transform: translateX(-10px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
+.view-detail-btn {
+    cursor: pointer;
+    background-color: #fff;
+    padding: 4px 8px;
+    color: #000;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;;
 }
 
-.apiv-card:hover .hover-span {
-    opacity: 1;
-    transform: translateX(0);
+.card-highlight:hover .view-detail-btn{
+    background-color: #000;
+    color: #fff;
 }
-
-

@@ -15,7 +15,7 @@ const Educationdb = (props) => {
                             <p className="font-s-10 font-w-500 m-0">{date}</p>
                         </div>
                     </a>
-                    <div className='read-hover'>
+                    <div className='read-hover d-lg-block d-md-none d-none'>
                         <i class="bi bi-chevron-right font-w-700"></i>
                     </div>
                 </div>
