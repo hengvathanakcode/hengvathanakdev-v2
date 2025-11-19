@@ -1,13 +1,394 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+img {
+  pointer-events: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar {
+  width: 6px;              
+  height: 6px;            
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;         
+  border-radius: 10px;      
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;         
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;  
+}
+
+
+.main-font {
+  font-family: "Montserrat", sans-serif;
+}
+
+.secondary-font {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.font-s-10 {
+  font-size: 10px;
+}
+
+.font-s-11 {
+  font-size: 11px;
+}
+
+.font-s-12 {
+  font-size: 12px;
+}
+
+.font-s-14 {
+  font-size: 14px;
+}
+
+.font-s-16 {
+  font-size: 16px;
+}
+
+.font-s-20 {
+  font-size: 20px;
+}
+
+.font-s-24 {
+  font-size: 24px;
+}
+
+.font-s-25 {
+  font-size: 25px;
+}
+
+.font-s-26 {
+  font-size: 26px;
+}
+
+.font-s-27 {
+  font-size: 27px;
+}
+
+.font-s-28 {
+  font-size: 28px;
+}
+
+.font-s-29 {
+  font-size: 29px;
+}
+
+.font-s-30 {
+  font-size: 30px;
+}
+
+.font-s-31 {
+  font-size: 31px;
+}
+
+.font-s-32 {
+  font-size: 32px;
+}
+
+.font-s-33 {
+  font-size: 33px;
+}
+
+.font-s-34 {
+  font-size: 34px;
+}
+
+.font-s-35 {
+  font-size: 35px;
+}
+
+.font-s-36 {
+  font-size: 36px;
+}
+
+.font-s-37 {
+  font-size: 37px;
+}
+
+.font-s-38 {
+  font-size: 34px;
+}
+
+.font-s-39 {
+  font-size: 39px;
+}
+
+.font-s-40 {
+  font-size: 40px;
+}
+
+.font-s-41 {
+  font-size: 41px;
+}
+
+.font-s-42 {
+  font-size: 42px;
+}
+
+.font-s-43 {
+  font-size: 43px;
+}
+
+.font-s-44 {
+  font-size: 44px;
+}
+
+.font-s-45 {
+  font-size: 45px;
+}
+
+.font-s-46 {
+  font-size: 46px;
+}
+
+.font-s-47 {
+  font-size: 47px;
+}
+
+.font-s-48 {
+  font-size: 48px;
+}
+
+.font-s-49 {
+  font-size: 49px;
+}
+
+.font-s-50 {
+  font-size: 50px;
+}
+
+.font-s-51 {
+  font-size: 51px;
+}
+
+.font-s-52 {
+  font-size: 52px;
+}
+
+.font-s-53 {
+  font-size: 53px;
+}
+
+.font-s-54 {
+  font-size: 54px;
+}
+
+.font-s-55 {
+  font-size: 55px;
+}
+
+.font-s-56 {
+  font-size: 56px;
+}
+
+.font-s-57 {
+  font-size: 57px;
+}
+
+.font-s-58 {
+  font-size: 58px;
+}
+
+.font-s-59 {
+  font-size: 59px;
+}
+
+.font-s-60 {
+  font-size: 60px;
+}
+
+.font-s-61 {
+  font-size: 61px;
+}
+
+.font-s-62 {
+  font-size: 62px;
+}
+
+.font-s-63 {
+  font-size: 63px;
+}
+
+.font-s-64 {
+  font-size: 64px;
+}
+
+.font-s-65 {
+  font-size: 65px;
+}
+
+.font-s-66 {
+  font-size: 66px;
+}
+
+.font-s-67 {
+  font-size: 67px;
+}
+
+.font-s-68 {
+  font-size: 68px;
+}
+
+.font-s-69 {
+  font-size: 69px;
+}
+
+.font-s-70 {
+  font-size: 70px;
+}
+
+.font-s-71 {
+  font-size: 71px;
+}
+
+.font-s-72 {
+  font-size: 72px;
+}
+
+.font-s-73 {
+  font-size: 73px;
+}
+
+.font-s-74 {
+  font-size: 74px;
+}
+
+.font-s-75 {
+  font-size: 75px;
+}
+
+.font-s-76 {
+  font-size: 76px;
+}
+
+.font-s-77 {
+  font-size: 77px;
+}
+
+.font-s-78 {
+  font-size: 78px;
+}
+
+.font-s-79 {
+  font-size: 79px;
+}
+
+.font-s-80 {
+  font-size: 80px;
+}
+
+.font-s-81 {
+  font-size: 81px;
+}
+
+.font-s-82 {
+  font-size: 82px;
+}
+
+.font-s-83 {
+  font-size: 83px;
+}
+
+.font-s-84 {
+  font-size: 84px;
+}
+
+.font-s-85 {
+  font-size: 85px;
+}
+
+.font-s-86 {
+  font-size: 86px;
+}
+
+.font-s-87 {
+  font-size: 87px;
+}
+
+.font-s-88 {
+  font-size: 88px;
+}
+
+.font-s-89 {
+  font-size: 89px;
+}
+
+.font-s-90 {
+  font-size: 90px;
+}
+
+.font-s-91 {
+  font-size: 91px;
+}
+
+.font-s-92 {
+  font-size: 92px;
+}
+
+.font-s-93 {
+  font-size: 93px;
+}
+
+.font-s-94 {
+  font-size: 94px;
+}
+
+.font-s-95 {
+  font-size: 95px;
+}
+
+.font-s-96 {
+  font-size: 96px;
+}
+
+.font-s-97 {
+  font-size: 97px;
+}
+
+.font-s-98 {
+  font-size: 98px;
+}
+
+.font-s-99 {
+  font-size: 99px;
+}
+
+.font-s-100 {
+  font-size: 100px;
+}
+
+.font-w-200 {
+  font-weight: 200;
+}
+
+.font-w-300 {
+  font-weight: 300;
+}
+
+.font-w-400 {
+  font-weight: 400;
+}
+
+.font-w-500 {
+  font-weight: 500;
+}
+
+.font-w-600 {
+  font-weight: 600;
+}
+
+.font-w-700 {
+  font-weight: 700;
+}
+
+.font-w-800 {
+  font-weight: 800;
+}
+
+.font-w-900 {
+  font-weight: 900;
 }

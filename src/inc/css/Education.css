@@ -1,0 +1,19 @@
+.education-img {
+    width: 56px;
+}
+
+.apie-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.read-hover {
+    padding: 8px;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.apie-card:hover .read-hover {
+    opacity: 1;
+    transform: translateX(0);
+}
