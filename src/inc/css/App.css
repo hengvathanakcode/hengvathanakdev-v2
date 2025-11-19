@@ -30,7 +30,6 @@ main {
     margin: 0 auto;
     max-width: 624px;
     width: 100%;
-    position: relative;
 }
 
 i {
@@ -44,6 +43,3 @@ section {
     padding: 0px 0px;
 }
 
-sup, sub {
-    z-index: -1;
-}

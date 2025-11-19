@@ -44,10 +44,6 @@ function Header() {
                             </NavLink>
                         </li>
                     </div>
-
-                </div>
-                <div className='dark-mode-container'>
-                    <i class="fa-regular fa-moon"></i>
                 </div>
             </header>
         </>
